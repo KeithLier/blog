@@ -1,13 +1,14 @@
 
 module.exports = {
     base: '/blog/',
-    title: 'blog',
+    title: 'Keith Blog',
     description: 'keith blog',
     themeConfig: {
         repo: 'https://github.com/KeithLier/blog',
-        repoLabel: 'My GitHub',
+        repoLabel: 'GitHub',
         nav: [
-            { text: 'Home', link: '/' },
+            { text: '主页', link: '/' },
+            { text: '个人信息', link: '/personal/' },            
             { text: 'FirstBlog', link: '/blog/' }
         ],
         sidebar: [
