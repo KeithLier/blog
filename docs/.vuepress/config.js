@@ -8,12 +8,13 @@ module.exports = {
         repoLabel: 'GitHub',
         nav: [
             { text: '主页', link: '/' },
-            { text: '个人信息', link: '/personal/' },            
-            { text: 'FirstBlog', link: '/blog/' }
+            { text: '个人简介', link: '/personal/' },            
+            { text: '分享', link: '/blog/' }
         ],
         sidebar: [
-            ['/', '首页'],
-            ['/blog/FirstBlog.md', '我的第一篇博客']
+            ['/', '主页'],
+            ['/personal/', '个人简介'],
+            ['/blog/', '分享']
           ]
       
     }

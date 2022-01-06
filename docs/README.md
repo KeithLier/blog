@@ -1,17 +1,16 @@
 ---
 home: true
-heroImage: /vue-logo.png
 heroText: 个人博客
-tagline: 博客示例
-actionText: 快速上手 →
-actionLink: /
+tagline: 技术   学习  分享
+actionText:  个人简介→
+actionLink: /personal/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+- title: 迎难而上
+  details: 记录日常工作中遇到的难题，解决的手动以及思路。
+- title: 拥抱开源
+  details: 分享和记录自己用到或者学习的一些开源软件。
+- title: 提升自我
+  details: 逆水行舟，不进组退，不允许看到别人在进步，自己却原地踏步。
 ---
 
 
