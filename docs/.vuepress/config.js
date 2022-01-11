@@ -11,11 +11,16 @@ module.exports = {
             { text: '个人简介', link: '/personal/' },            
             { text: '分享', link: '/blog/' }
         ],
-        sidebar: [
-            ['/', '主页'],
-            ['/personal/', '个人简介'],
-            ['/blog/', '分享']
-          ]
+        sidebar: {
+            '/personal/' :[
+                ''
+            ],
+            '/blog/' :[
+                '',
+                'Awesome',
+                'Study'
+            ]
+        }
       
     }
 
